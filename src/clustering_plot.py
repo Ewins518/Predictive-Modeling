@@ -78,7 +78,7 @@ sns.countplot(
     data=df_original[df_original['type_building'].isin(top_types)],
     x="Cluster", hue="type_building", palette="mako"
 )
-plt.title("🏘️ Dominant Building Types by Cluster", fontsize=14, weight='bold')
+plt.title("Dominant Building Types by Cluster", fontsize=14, weight='bold')
 plt.xlabel("Cluster")
 plt.ylabel("Number of Properties")
 plt.legend(title="Building Type")
@@ -94,7 +94,7 @@ plt.close()
 
 plt.figure(figsize=(8,5))
 sns.boxplot(data=df_original, x="Cluster", y="saleprice", palette="flare")
-plt.title("💰 Sale Price Distribution per Cluster", fontsize=14, weight='bold')
+plt.title("Sale Price Distribution per Cluster", fontsize=14, weight='bold')
 plt.xlabel("Cluster")
 plt.ylabel("Sale Price (USD)")
 plt.tight_layout()
