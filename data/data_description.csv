@@ -1,0 +1,402 @@
+Variable,Description,label_values,label_description
+id,"Unique identifier for each property sale.",,
+sub_ms_class,"Identifies the type of dwelling involved in the sale.",,
+sub_ms_class,,"20","1-STORY 1946 & NEWER ALL STYLES"
+sub_ms_class,,"30","1-STORY 1945 & OLDER"
+sub_ms_class,,"40","1-STORY W/FINISHED ATTIC ALL AGES"
+sub_ms_class,,"45","1-1/2 STORY - UNFINISHED ALL AGES"
+sub_ms_class,,"50","1-1/2 STORY FINISHED ALL AGES"
+sub_ms_class,,"60","2-STORY 1946 & NEWER"
+sub_ms_class,,"70","2-STORY 1945 & OLDER"
+sub_ms_class,,"75","2-1/2 STORY ALL AGES"
+sub_ms_class,,"80","SPLIT OR MULTI-LEVEL"
+sub_ms_class,,"85","SPLIT FOYER"
+sub_ms_class,,"90","DUPLEX - ALL STYLES AND AGES"
+sub_ms_class,,"120","1-STORY PUD (Planned Unit Development) - 1946 & NEWER"
+sub_ms_class,,"150","1-1/2 STORY PUD - ALL AGES"
+sub_ms_class,,"160","2-STORY PUD - 1946 & NEWER"
+sub_ms_class,,"180","PUD - MULTILEVEL - INCL SPLIT LEV/FOYER"
+sub_ms_class,,"190","2 FAMILY CONVERSION - ALL STYLES AND AGES"
+zoning_ms,"Identifies the general zoning classification of the sale.",,
+zoning_ms,,"A","Agriculture"
+zoning_ms,,"C","Commercial"
+zoning_ms,,"FV","Floating Village Residential"
+zoning_ms,,"I","Industrial"
+zoning_ms,,"RH","Residential High Density"
+zoning_ms,,"RL","Residential Low Density"
+zoning_ms,,"RP","Residential Low Density Park"
+zoning_ms,,"RM","Residential Medium Density"
+frontge_lot,"Linear feet of street connected to property.",,
+area_lot,"Lot size in square feet.",,
+streetname,"Type of road access to property.",,
+streetname,,"Grvl","Gravel"
+streetname,,"Pave","Paved"
+alleyname,"Type of alley access to property.",,
+alleyname,,"Grvl","Gravel"
+alleyname,,"Pave","Paved"
+alleyname,,"NA","No alley access"
+shape_lot,"General shape of property.",,
+shape_lot,,"Reg","Regular"
+shape_lot,,"IR1","Slightly irregular"
+shape_lot,,"IR2","Moderately Irregular"
+shape_lot,,"IR3","Irregular"
+contour_land,"Flatness of the property.",,
+contour_land,,"Lvl","Near Flat/Level"
+contour_land,,"Bnk","Banked - Quick and significant rise from street grade to building"
+contour_land,,"HLS","Hillside - Significant slope from side to side"
+contour_land,,"Low","Depression"
+util,"Type of utilities available.",,
+util,,"AllPub","All public Utilities (E,G,W,& S)"
+util,,"NoSewr","Electricity, Gas, and Water (Septic Tank)"
+util,,"NoSeWa","Electricity and Gas Only"
+util,,"ELO","Electricity only"
+configlot,"Lot configuration.",,
+configlot,,"Inside","Inside lot"
+configlot,,"Corner","Corner lot"
+configlot,,"CulDSac","Cul-de-sac"
+configlot,,"FR2","Frontage on 2 sides of property"
+configlot,,"FR3","Frontage on 3 sides of property"
+slopeland,"Slope of property.",,
+slopeland,,"Gtl","Gentle slope"
+slopeland,,"Mod","Moderate Slope"
+slopeland,,"Sev","Severe Slope"
+neighborhood,"Physical locations within Ames city limits.",,
+neighborhood,,"Blmngtn","Bloomington Heights"
+neighborhood,,"Blueste","Bluestem"
+neighborhood,,"BrDale","Briardale"
+neighborhood,,"BrkSide","Brookside"
+neighborhood,,"ClearCr","Clear Creek"
+neighborhood,,"CollgCr","College Creek"
+neighborhood,,"Crawfor","Crawford"
+neighborhood,,"Edwards","Edwards"
+neighborhood,,"Gilbert","Gilbert"
+neighborhood,,"IDOTRR","Iowa DOT and Rail Road"
+neighborhood,,"MeadowV","Meadow Village"
+neighborhood,,"Mitchel","Mitchell"
+neighborhood,,"Names","North Ames"
+neighborhood,,"NoRidge","Northridge"
+neighborhood,,"NPkVill","Northpark Villa"
+neighborhood,,"NridgHt","Northridge Heights"
+neighborhood,,"NWAmes","Northwest Ames"
+neighborhood,,"OldTown","Old Town"
+neighborhood,,"SWISU","South & West of Iowa State University"
+neighborhood,,"Sawyer","Sawyer"
+neighborhood,,"SawyerW","Sawyer West"
+neighborhood,,"Somerst","Somerset"
+neighborhood,,"StoneBr","Stone Brook"
+neighborhood,,"Timber","Timberland"
+neighborhood,,"Veenker","Veenker"
+c1,"Proximity to various conditions.",,
+c1,,"Artery","Adjacent to arterial street"
+c1,,"Feedr","Adjacent to feeder street"
+c1,,"Norm","Normal"
+c1,,"RRNn","Within 200' of North-South Railroad"
+c1,,"RRAn","Adjacent to North-South Railroad"
+c1,,"PosN","Near positive off-site feature--park, greenbelt, etc."
+c1,,"PosA","Adjacent to positive off-site feature"
+c1,,"RRNe","Within 200' of East-West Railroad"
+c1,,"RRAe","Adjacent to East-West Railroad"
+c2,"Proximity to various conditions (if more than one is present).",,
+c2,,"Artery","Adjacent to arterial street"
+c2,,"Feedr","Adjacent to feeder street"
+c2,,"Norm","Normal"
+c2,,"RRNn","Within 200' of North-South Railroad"
+c2,,"RRAn","Adjacent to North-South Railroad"
+c2,,"PosN","Near positive off-site feature--park, greenbelt, etc."
+c2,,"PosA","Adjacent to positive off-site feature"
+c2,,"RRNe","Within 200' of East-West Railroad"
+c2,,"RRAe","Adjacent to East-West Railroad"
+type_building,"Type of dwelling.",,
+type_building,,"1Fam","Single-family Detached"
+type_building,,"2FmCon","Two-family Conversion; originally built as one-family dwelling"
+type_building,,"Duplx","Duplex"
+type_building,,"TwnhsE","Townhouse End Unit"
+type_building,,"TwnhsI","Townhouse Inside Unit"
+style_house,"Style of dwelling.",,
+style_house,,"1Story","One story"
+style_house,,"1.5Fin","One and one-half story: 2nd level finished"
+style_house,,"1.5Unf","One and one-half story: 2nd level unfinished"
+style_house,,"2Story","Two story"
+style_house,,"2.5Fin","Two and one-half story: 2nd level finished"
+style_house,,"2.5Unf","Two and one-half story: 2nd level unfinished"
+style_house,,"SFoyer","Split Foyer"
+style_house,,"SLvl","Split Level"
+ovl_quality,"Rates the overall material and finish of the house.",,
+ovl_quality,,"10","Very Excellent"
+ovl_quality,,"9","Excellent"
+ovl_quality,,"8","Very Good"
+ovl_quality,,"7","Good"
+ovl_quality,,"6","Above Average"
+ovl_quality,,"5","Average"
+ovl_quality,,"4","Below Average"
+ovl_quality,,"3","Fair"
+ovl_quality,,"2","Poor"
+ovl_quality,,"1","Very Poor"
+ovl_condition,"Rates the overall condition of the house.",,
+ovl_condition,,"10","Very Excellent"
+ovl_condition,,"9","Excellent"
+ovl_condition,,"8","Very Good"
+ovl_condition,,"7","Good"
+ovl_condition,,"6","Above Average"
+ovl_condition,,"5","Average"
+ovl_condition,,"4","Below Average"
+ovl_condition,,"3","Fair"
+ovl_condition,,"2","Poor"
+ovl_condition,,"1","Very Poor"
+year_constructed,"Original construction date.",,
+year_remod,"Remodel date (same as construction date if no remodeling or additions).",,
+roof_style,"Type of roof.",,
+roof_style,,"Flat","Flat"
+roof_style,,"Gable","Gable"
+roof_style,,"Gambrel","Gabrel (Barn)"
+roof_style,,"Hip","Hip"
+roof_style,,"Mansard","Mansard"
+roof_style,,"Shed","Shed"
+roofmatl,"Roof material.",,
+roofmatl,,"ClyTile","Clay or Tile"
+roofmatl,,"CompShg","Standard (Composite) Shingle"
+roofmatl,,"Membran","Membrane"
+roofmatl,,"Metal","Metal"
+roofmatl,,"Roll","Roll"
+roofmatl,,"Tar&Grv","Gravel & Tar"
+roofmatl,,"WdShake","Wood Shakes"
+roofmatl,,"WdShngl","Wood Shingles"
+ext1,"Exterior covering on house.",,
+ext1,,"AsbShng","Asbestos Shingles"
+ext1,,"AsphShn","Asphalt Shingles"
+ext1,,"BrkComm","Brick Common"
+ext1,,"BrkFace","Brick Face"
+ext1,,"CBlock","Cinder Block"
+ext1,,"CemntBd","Cement Board"
+ext1,,"HdBoard","Hard Board"
+ext1,,"ImStucc","Imitation Stucco"
+ext1,,"MetalSd","Metal Siding"
+ext1,,"Other","Other"
+ext1,,"Plywood","Plywood"
+ext1,,"PreCast","PreCast"
+ext1,,"Stone","Stone"
+ext1,,"Stucco","Stucco"
+ext1,,"VinylSd","Vinyl Siding"
+ext1,,"Wd Sdng","Wood Siding"
+ext1,,"WdShing","Wood Shingles"
+ext2,"Exterior covering on house (if more than one material).",,
+ext2,,"AsbShng","Asbestos Shingles"
+ext2,,"AsphShn","Asphalt Shingles"
+ext2,,"BrkComm","Brick Common"
+ext2,,"BrkFace","Brick Face"
+ext2,,"CBlock","Cinder Block"
+ext2,,"CemntBd","Cement Board"
+ext2,,"HdBoard","Hard Board"
+ext2,,"ImStucc","Imitation Stucco"
+ext2,,"MetalSd","Metal Siding"
+ext2,,"Other","Other"
+ext2,,"Plywood","Plywood"
+ext2,,"PreCast","PreCast"
+ext2,,"Stone","Stone"
+ext2,,"Stucco","Stucco"
+ext2,,"VinylSd","Vinyl Siding"
+ext2,,"Wd Sdng","Wood Siding"
+ext2,,"WdShing","Wood Shingles"
+masvnrtype,"Masonry veneer type.",,
+masvnrtype,,"BrkCmn","Brick Common"
+masvnrtype,,"BrkFace","Brick Face"
+masvnrtype,,"CBlock","Cinder Block"
+masvnrtype,,"None","None"
+masvnrtype,,"Stone","Stone"
+masvnrarea,"Masonry veneer area in square feet.",,
+exterqual,"Evaluates the quality of the material on the exterior.",,
+exterqual,,"Ex","Excellent"
+exterqual,,"Gd","Good"
+exterqual,,"TA","Average/Typical"
+exterqual,,"Fa","Fair"
+exterqual,,"Po","Poor"
+extercond,"Evaluates the present condition of the material on the exterior.",,
+extercond,,"Ex","Excellent"
+extercond,,"Gd","Good"
+extercond,,"TA","Average/Typical"
+extercond,,"Fa","Fair"
+extercond,,"Po","Poor"
+foundation,"Type of foundation.",,
+foundation,,"BrkTil","Brick & Tile"
+foundation,,"CBlock","Cinder Block"
+foundation,,"PConc","Poured Concrete"
+foundation,,"Slab","Slab"
+foundation,,"Stone","Stone"
+foundation,,"Wood","Wood"
+bsmtqual,"Evaluates the height of the basement.",,
+bsmtqual,,"Ex","Excellent (100+ inches)"
+bsmtqual,,"Gd","Good (90-99 inches)"
+bsmtqual,,"TA","Typical (80-89 inches)"
+bsmtqual,,"Fa","Fair (70-79 inches)"
+bsmtqual,,"Po","Poor (<70 inches)"
+bsmtqual,,"NA","No Basement"
+bsmtcond,"Evaluates the general condition of the basement.",,
+bsmtcond,,"Ex","Excellent"
+bsmtcond,,"Gd","Good"
+bsmtcond,,"TA","Typical - slight dampness allowed"
+bsmtcond,,"Fa","Fair - dampness or some cracking or settling"
+bsmtcond,,"Po","Poor - Severe cracking, settling, or wetness"
+bsmtcond,,"NA","No Basement"
+bsmtexposure,"Refers to walkout or garden level walls.",,
+bsmtexposure,,"Gd","Good Exposure"
+bsmtexposure,,"Av","Average Exposure"
+bsmtexposure,,"Mn","Minimum Exposure"
+bsmtexposure,,"No","No Exposure"
+bsmtexposure,,"NA","No Basement"
+bsmtfintype1,"Rating of basement finished area.",,
+bsmtfintype1,,"GLQ","Good Living Quarters"
+bsmtfintype1,,"ALQ","Average Living Quarters"
+bsmtfintype1,,"BLQ","Below Average Living Quarters"
+bsmtfintype1,,"Rec","Average Rec Room"
+bsmtfintype1,,"LwQ","Low Quality"
+bsmtfintype1,,"Unf","Unfinished"
+bsmtfintype1,,"NA","No Basement"
+bsmtfinsf1,"Type 1 finished square feet.",,
+bsmtfintype2,"Rating of basement finished area (if multiple types).",,
+bsmtfintype2,,"GLQ","Good Living Quarters"
+bsmtfintype2,,"ALQ","Average Living Quarters"
+bsmtfintype2,,"BLQ","Below Average Living Quarters"
+bsmtfintype2,,"Rec","Average Rec Room"
+bsmtfintype2,,"LwQ","Low Quality"
+bsmtfintype2,,"Unf","Unfinished"
+bsmtfintype2,,"NA","No Basement"
+bsmtfinsf2,"Type 2 finished square feet.",,
+bsmtunfsf,"Unfinished square feet of basement area.",,
+totalbsmtsf,"Total square feet of basement area.",,
+heating,"Type of heating.",,
+heating,,"Floor","Floor Furnace"
+heating,,"GasA","Gas forced warm air furnace"
+heating,,"GasW","Gas hot water or steam heat"
+heating,,"Grav","Gravity furnace"
+heating,,"OthW","Hot water or steam heat other than gas"
+heating,,"Wall","Wall furnace"
+heatingqc,"Heating quality and condition.",,
+heatingqc,,"Ex","Excellent"
+heatingqc,,"Gd","Good"
+heatingqc,,"TA","Average/Typical"
+heatingqc,,"Fa","Fair"
+heatingqc,,"Po","Poor"
+centralair,"Central air conditioning.",,
+centralair,,"N","No"
+centralair,,"Y","Yes"
+electrical,"Electrical system.",,
+electrical,,"SBrkr","Standard Circuit Breakers & Romex"
+electrical,,"FuseA","Fuse Box over 60 AMP and all Romex wiring (Average)"
+electrical,,"FuseF","60 AMP Fuse Box and mostly Romex wiring (Fair)"
+electrical,,"FuseP","60 AMP Fuse Box and mostly knob & tube wiring (Poor)"
+electrical,,"Mix","Mixed"
+1stflrsf,"First floor square feet.",,
+2ndflrsf,"Second floor square feet.",,
+lowqualfinsf,"Low quality finished square feet (all floors).",,
+grlivarea,"Above grade (ground) living area square feet.",,
+bsmtfullbath,"Basement full bathrooms.",,
+bsmthalfbath,"Basement half bathrooms.",,
+fullbath,"Full bathrooms above grade.",,
+halfbath,"Half baths above grade.",,
+bedroomabvgr,"Bedrooms above grade (does NOT include basement bedrooms).",,
+kitchenabvgr,"Kitchens above grade.",,
+kitchenqual,"Kitchen quality.",,
+kitchenqual,,"Ex","Excellent"
+kitchenqual,,"Gd","Good"
+kitchenqual,,"TA","Typical/Average"
+kitchenqual,,"Fa","Fair"
+kitchenqual,,"Po","Poor"
+totrmsabvgrd,"Total rooms above grade (does not include bathrooms).",,
+functional,"Home functionality (assume typical unless deductions are warranted).",,
+functional,,"Typ","Typical Functionality"
+functional,,"Min1","Minor Deductions 1"
+functional,,"Min2","Minor Deductions 2"
+functional,,"Mod","Moderate Deductions"
+functional,,"Maj1","Major Deductions 1"
+functional,,"Maj2","Major Deductions 2"
+functional,,"Sev","Severely Damaged"
+functional,,"Sal","Salvage only"
+fireplaces,"Number of fireplaces.",,
+fireplacequ,"Fireplace quality.",,
+fireplacequ,,"Ex","Excellent - Exceptional Masonry Fireplace"
+fireplacequ,,"Gd","Good - Masonry Fireplace in main level"
+fireplacequ,,"TA","Average - Prefabricated Fireplace in main living area or Masonry Fireplace in basement"
+fireplacequ,,"Fa","Fair - Prefabricated Fireplace in basement"
+fireplacequ,,"Po","Poor - Ben Franklin Stove"
+fireplacequ,,"NA","No Fireplace"
+garagetype,"Garage location.",,
+garagetype,,"2Types","More than one type of garage"
+garagetype,,"Attchd","Attached to home"
+garagetype,,"Basment","Basement Garage"
+garagetype,,"BuiltIn","Built-In (Garage part of house - typically has room above garage)"
+garagetype,,"CarPort","Car Port"
+garagetype,,"Detchd","Detached from home"
+garagetype,,"NA","No Garage"
+garageyrblt,"Year garage was built.",,
+garagefinish,"Interior finish of the garage.",,
+garagefinish,,"Fin","Finished"
+garagefinish,,"RFn","Rough Finished"
+garagefinish,,"Unf","Unfinished"
+garagefinish,,"NA","No Garage"
+garagecars,"Size of garage in car capacity.",,
+garagearea,"Size of garage in square feet.",,
+garagequal,"Garage quality.",,
+garagequal,,"Ex","Excellent"
+garagequal,,"Gd","Good"
+garagequal,,"TA","Typical/Average"
+garagequal,,"Fa","Fair"
+garagequal,,"Po","Poor"
+garagequal,,"NA","No Garage"
+garagecond,"Garage condition.",,
+garagecond,,"Ex","Excellent"
+garagecond,,"Gd","Good"
+garagecond,,"TA","Typical/Average"
+garagecond,,"Fa","Fair"
+garagecond,,"Po","Poor"
+garagecond,,"NA","No Garage"
+paveddrive,"Paved driveway.",,
+paveddrive,,"Y","Paved"
+paveddrive,,"P","Partial Pavement"
+paveddrive,,"N","Dirt/Gravel"
+wooddecksf,"Wood deck area in square feet.",,
+openporchsf,"Open porch area in square feet.",,
+enclosedporch,"Enclosed porch area in square feet.",,
+3ssnporch,"Three season porch area in square feet.",,
+screenporch,"Screen porch area in square feet.",,
+poolarea,"Pool area in square feet.",,
+poolqc,"Pool quality.",,
+poolqc,,"Ex","Excellent"
+poolqc,,"Gd","Good"
+poolqc,,"TA","Average/Typical"
+poolqc,,"Fa","Fair"
+poolqc,,"NA","No Pool"
+fence,"Fence quality.",,
+fence,,"GdPrv","Good Privacy"
+fence,,"MnPrv","Minimum Privacy"
+fence,,"GdWo","Good Wood"
+fence,,"MnWw","Minimum Wood/Wire"
+fence,,"NA","No Fence"
+miscfeature,"Miscellaneous feature not covered in other categories.",,
+miscfeature,,"Elev","Elevator"
+miscfeature,,"Gar2","2nd Garage (if not described in garage section)"
+miscfeature,,"Othr","Other"
+miscfeature,,"Shed","Shed (over 100 SF)"
+miscfeature,,"TenC","Tennis Court"
+miscfeature,,"NA","None"
+miscval,"$Value of miscellaneous feature.",,
+mosold,"Month Sold (MM).",,
+yrsold,"Year Sold (YYYY).",,
+saletype,"Type of sale.",,
+saletype,,"WD","Warranty Deed - Conventional"
+saletype,,"CWD","Warranty Deed - Cash"
+saletype,,"VWD","Warranty Deed - VA Loan"
+saletype,,"New","Home just constructed and sold"
+saletype,,"COD","Court Officer Deed/Estate"
+saletype,,"Con","Contract 15% Down payment regular terms"
+saletype,,"ConLw","Contract Low Down payment and low interest"
+saletype,,"ConLI","Contract Low Interest"
+saletype,,"ConLD","Contract Low Down"
+saletype,,"Oth","Other"
+salecondition,"Condition of sale.",,
+salecondition,,"Normal","Normal Sale"
+salecondition,,"Abnorml","Abnormal Sale - trade, foreclosure, short sale"
+salecondition,,"AdjLand","Adjoining Land Purchase"
+salecondition,,"Alloca","Allocation - two linked properties with separate deeds, typically condo with a garage unit"
+salecondition,,"Family","Sale between family members"
+salecondition,,"Partial","Home was not completed when last assessed (associated with New Homes)"
+saleprice,"Sale price in USD.",,
