@@ -61,7 +61,7 @@ plt.close()
 # ---------------------------------------------
 
 
-# --- (a) Overall Quality
+# Overall Quality
 plt.figure(figsize=(8,5))
 sns.boxplot(data=df_original, x="Cluster", y="ovl_quality", palette="viridis")
 plt.title("Building Quality by Cluster", fontsize=14, weight='bold')
@@ -71,7 +71,7 @@ plt.tight_layout()
 plt.savefig('../Answers - Damilola Romeo Ewinsou/figures/Overall Quality Rating.png', dpi=300, bbox_inches='tight')
 plt.close()
 
-# --- (b) Type of Building
+# Type of Building
 plt.figure(figsize=(9,5))
 top_types = df_original['type_building'].value_counts().nlargest(5).index
 sns.countplot(

@@ -58,7 +58,7 @@ def encode_categorical_features(df, features_nom=features_nom, ordered_levels=or
             df_encoded[[col]] = oe.fit_transform(df_encoded[[col]].fillna('NA'))
             encoders['ordinal'][col] = oe
 
-    # One-Hot Encoding for Nominal ----
+    # one-Hot Encoding for Nominal
     nominal_cols = [col for col in features_nom if col in df_encoded.columns]
 
     if nominal_cols:

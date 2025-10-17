@@ -23,7 +23,6 @@ def impute_and_treat_outliers(df):
 
     impute_mask = df_clean['garageyrblt'].isna() & df_clean['year_constructed'].notna()
 
-    # Fill missing values
     df_clean.loc[impute_mask, 'garageyrblt'] = df_clean.loc[impute_mask, 'year_constructed']
 
     imputation_log.append({
@@ -49,6 +48,8 @@ def impute_and_treat_outliers(df):
             df_clean[col] = df_clean[col].fillna(val)
 
             imputation_log.append({'Column': col, 'Method': method, 'Imputed_Value': val})
+        
+        #Outliers
         Q1, Q3 = df_clean[col].quantile(0.25), df_clean[col].quantile(0.75)
         IQR = Q3 - Q1
         lower, upper = Q1 - 3*IQR, Q3 + 3*IQR

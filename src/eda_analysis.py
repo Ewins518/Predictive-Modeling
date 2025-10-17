@@ -105,7 +105,7 @@ def plot_boxplots(df, by=None, save_path="Answers - Damilola Romeo Ewinsou/figur
 def analyze_categorical_distributions(df, categorical_cols):
     categorical_summary = []
 
-    for col in categorical_cols:  #limit to 16 for visualization
+    for col in categorical_cols: 
         freq = df[col].value_counts()
         categorical_summary.append({
             'Column': col,
@@ -132,7 +132,7 @@ def analyze_categorical_distributions(df, categorical_cols):
             axes[idx].tick_params(axis='x', rotation=45)
             axes[idx].grid(axis='y', alpha=0.3)
 
-    # Remove empty subplots
+    # delete empty subplots
     for idx in range(min(len(categorical_cols), 16), len(axes)):
         fig.delaxes(axes[idx])
 

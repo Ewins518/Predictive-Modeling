@@ -53,7 +53,7 @@ def build_clustering_model(df,feature_cols_cluster):
 
     print("DETERMINING OPTIMAL NUMBER OF CLUSTERS")
 
-    # Elbow Method + Silhouette Analysis
+    # Elbow Method and Silhouette Analysis
     inertias = []
     silhouette_scores = []
     davies_bouldin_scores = []
